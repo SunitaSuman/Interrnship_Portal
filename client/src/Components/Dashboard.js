@@ -111,9 +111,6 @@ export default function Dashboard() {
       <form onSubmit={handleSubmit} className='profile'>
       <h1>Profile Details</h1>
       {error && <p>{error}</p>}
-      <div>
-      <img src={gravatarUrl} alt="Gravatar" width='120' height='120' onClick={()=>{setError("To change the photo: Visit https://gravatar.com/")}} />
-      </div>
       <div className='profile_details'>
       <div>
         <label htmlFor="username">UserName:</label>
